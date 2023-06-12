@@ -1,8 +1,5 @@
 "use strict";
 
-const buttonNext = document.getElementById("buttonNext");
-const buttonPrev = document.getElementById("buttonPrev");
-
 let slide = ["carousel1.jpg", "carousel2.jpg", "carousel4.jpg"];
 let index = 0;
 
