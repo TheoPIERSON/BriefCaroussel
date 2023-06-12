@@ -1,6 +1,6 @@
 "use strict";
 
-let slide = ["carousel1.jpg", "carousel2.jpg", "carousel4.jpg"];
+let slide = ["carousel1.jpg", "carousel2.jpg", "carousel4.jpg", "windows.jpg", "t725.png", "Phase_4.jpg"];
 let index = 0;
 
 function ChangeSlide(sens) {

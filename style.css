@@ -3,7 +3,7 @@
 }
 body {
   background-image: url(images/Backrooms_model.jpg);
-  object-fit: fill;
+  background-size: cover;
 }
 h1,
 h2 {
