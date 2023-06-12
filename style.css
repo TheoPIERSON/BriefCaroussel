@@ -3,9 +3,40 @@
 }
 body {
   background-image: url(images/Backrooms_model.jpg);
+  object-fit: fill;
 }
-h1 {
+h1,
+h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+}
+#slider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+#slider img {
+  width: 50%;
+  height: 500px;
+}
+#slider button {
+  transform: translateY(15rem);
+}
+button {
+  appearance: none;
+  background-color: transparent;
+  border: 4px solid #229091;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 8px;
+  text-align: center;
+}
+#buttonNext {
+  border: 4px solid #e95a49;
 }
